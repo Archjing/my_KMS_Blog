@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi, there!</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Hi, there!</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-04-27</title>
+      <link>http://localhost:1313/posts/2026-04-27/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-27/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;#blog&lt;/li&gt;&#xA;&lt;li&gt;&lt;img src=&#34;https://w.wallhaven.cc/full/og/wallhaven-ogyeol.jpg&#34; alt=&#34;&#34;&gt;{:height 447, :width 780}&lt;/li&gt;&#xA;&lt;li&gt;LATER logseq 编辑一个脚本，自动在每天日志开头随机从wallhaven.cc抓取一张题图。&lt;/li&gt;&#xA;&lt;li&gt;LATER 了解学用&lt;a href=&#34;https://cursor.com/cn/product&#34;&gt;cursor&lt;/a&gt;，可能替代code&lt;/li&gt;&#xA;&lt;li&gt;05:25 [[HTML]] 学到这里了：&lt;a href=&#34;https://www.runoob.com/html/html-formatting.html&#34;&gt;文本格式化&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;LovArt AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;Zettlr 取代/补充 Typora&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>2026-04-29</title>
+      <link>http://localhost:1313/posts/2026-04-29/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-29/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;#blog #draft&lt;/li&gt;&#xA;&lt;li&gt;在wsl的.venv环境下安装了Pytorch，安装了Shimmy&lt;/li&gt;&#xA;&lt;li&gt;TODO 家里的电脑，独显要复活起来，如果坏了实在没救就放弃，研究一下云GPU的成本。&lt;/li&gt;&#xA;&lt;li&gt;[Qwen2.5-Omni-3B 一个多模态模型]https://huggingface.co/unsloth/Qwen2.5-Omni-3B-GGUF&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>AI-Agent</title>
+      <link>http://localhost:1313/posts/ai-agent/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-agent/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;#Blog&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;好问题，这几个名词确实容易混淆——它们不全是 Agent 框架。我先帮你理清它们的真实身份，再系统对比所有好用的 Agent 工具。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;一你提到的这几个分别是什么&#34;&gt;一、你提到的这几个，分别是什么？&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;名称&lt;/th&gt;&#xA;          &lt;th&gt;真实身份&lt;/th&gt;&#xA;          &lt;th&gt;一句话解释&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Continue&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;❌ &lt;strong&gt;不是 Agent 框架&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;VSCode 编程助手插件，帮你写代码、补全、解释，但它不会“主动帮你干活”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;✅ &lt;strong&gt;是 Agent 框架&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;开源 AI 代理平台，能通过自然语言指令自动执行多步骤任务，是“能干活的数字员工”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Little Coder&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;✅ &lt;strong&gt;是 Agent（专注编程）&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;专门为代码任务调优的编程代理，Aider 基准得分 45.56%，是开发者专属&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Agent Mini&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;⚠️ &lt;strong&gt;参考命名&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;搜索结果中没有找到叫“Agent Mini”的主流框架，你可能指的是 &lt;strong&gt;AgentForge&lt;/strong&gt; 或 &lt;strong&gt;AllegroAgent&lt;/strong&gt; 这类轻量级框架&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Continue&lt;/strong&gt; 只是插件，&lt;strong&gt;不是 Agent&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt; 是全能型 Agent，可以帮你做各种事（文件整理、浏览器、代码等）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Little Coder&lt;/strong&gt; 是编程专用 Agent&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;如果你说的“Agent Mini”是指轻量级框架，那就是 &lt;strong&gt;AllegroAgent&lt;/strong&gt; 或 &lt;strong&gt;AgentForge&lt;/strong&gt; 这类&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;二所有好用的-agent-框架全景对比&#34;&gt;二、所有好用的 Agent 框架全景对比&lt;/h2&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-全能型-agent帮你完成日常电脑工作&#34;&gt;🔥 全能型 Agent（帮你完成日常电脑工作）&lt;/h3&gt;&#xA;&lt;p&gt;适合你的场景：完成代码任务 + 搜索资料 + 整理文件 + 日常工作&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my_first_post/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my_first_post/</guid>
+      <description>&lt;p&gt;这里是我的第一篇博客内容。&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&#xA;将 `draft` 改为 `false`，文章就会在最终发布时显示。&#xA;&#xA;---&#xA;&#xA;### 6. **运行本地开发服务器**&#xA;&#xA;运行以下命令可以在本地启动一个开发服务器：&#xA;```bash&#xA;hugo server -D&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后你可以在浏览器中访问 &lt;code&gt;http://localhost:1313&lt;/code&gt; 查看你的网站。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;7-生成静态文件并发布&#34;&gt;7. &lt;strong&gt;生成静态文件并发布&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;生成静态文件用于部署到服务器：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;生成的文件会默认存放在 &lt;code&gt;public&lt;/code&gt; 文件夹中，你可以通过任何支持静态文件的网站托管服务（如 GitHub Pages、Netlify、Vercel）部署。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;8-部署博客&#34;&gt;8. &lt;strong&gt;部署博客&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;a-github-pages-示例&#34;&gt;A. GitHub Pages 示例&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;将 &lt;code&gt;public&lt;/code&gt; 文件夹部署到 &lt;code&gt;gh-pages&lt;/code&gt; 分支：&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd public&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Deploy my Hugo site&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -M gh-pages&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://github.com/你的用户名/你的仓库名.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin gh-pages&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

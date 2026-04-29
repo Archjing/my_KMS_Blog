@@ -1,0 +1,25 @@
+baseURL = "http://localhost:1313/"
+locale = "en-us"
+title = "Hi, there!"
+theme = "Ananke"
+enableGitInfo = true
+
+[params]
+ShowReadingTime = true
+ShowCanonicalURL = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# Hugo 0.161.0 安全配置
+[security.exec]
+osEnv = ["^HUGO_", "^CI$", "^GITHUB_"]
+
+[security.http.urls]
+patterns = [".*"]
+deny = []
+
+[security.node.permissions]
+writeDir = ""
+readDir = ""
+exec = [] 
