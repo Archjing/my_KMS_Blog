@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>AI-Agent | Hi, there!</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AI-Agent | Hi, there!</title>
+<meta name="keywords" content="blog">
+<meta name="description" content="
 #Blog
 
 
@@ -65,37 +66,63 @@ Little Coder 是编程专用 Agent
 
 🔥 全能型 Agent（帮你完成日常电脑工作）
 适合你的场景：完成代码任务 &#43; 搜索资料 &#43; 整理文件 &#43; 日常工作">
-    <meta name="generator" content="Hugo 0.161.0">
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/ai-agent/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/ai-agent/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-    
-
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/posts/ai-agent/">
-    
-
-    
-    
-    <meta property="og:url" content="http://localhost:1313/posts/ai-agent/">
+</script><meta property="og:url" content="http://localhost:1313/posts/ai-agent/">
   <meta property="og:site_name" content="Hi, there!">
   <meta property="og:title" content="AI-Agent">
   <meta property="og:description" content="#Blog 好问题，这几个名词确实容易混淆——它们不全是 Agent 框架。我先帮你理清它们的真实身份，再系统对比所有好用的 Agent 工具。
@@ -109,21 +136,9 @@ Little Coder 是编程专用 Agent
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-04-29T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-04-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-29T18:41:09+08:00">
     <meta property="article:tag" content="Blog">
 
-  <meta itemprop="name" content="AI-Agent">
-  <meta itemprop="description" content="#Blog 好问题，这几个名词确实容易混淆——它们不全是 Agent 框架。我先帮你理清它们的真实身份，再系统对比所有好用的 Agent 工具。
-一、你提到的这几个，分别是什么？ 名称 真实身份 一句话解释 Continue ❌ 不是 Agent 框架 VSCode 编程助手插件，帮你写代码、补全、解释，但它不会“主动帮你干活” OpenClaw ✅ 是 Agent 框架 开源 AI 代理平台，能通过自然语言指令自动执行多步骤任务，是“能干活的数字员工” Little Coder ✅ 是 Agent（专注编程） 专门为代码任务调优的编程代理，Aider 基准得分 45.56%，是开发者专属 Agent Mini ⚠️ 参考命名 搜索结果中没有找到叫“Agent Mini”的主流框架，你可能指的是 AgentForge 或 AllegroAgent 这类轻量级框架 总结：
-Continue 只是插件，不是 Agent
-OpenClaw 是全能型 Agent，可以帮你做各种事（文件整理、浏览器、代码等）
-Little Coder 是编程专用 Agent
-如果你说的“Agent Mini”是指轻量级框架，那就是 AllegroAgent 或 AgentForge 这类
-二、所有好用的 Agent 框架全景对比 🔥 全能型 Agent（帮你完成日常电脑工作） 适合你的场景：完成代码任务 &#43; 搜索资料 &#43; 整理文件 &#43; 日常工作">
-  <meta itemprop="datePublished" content="2026-04-29T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2026-04-29T00:00:00+00:00">
-  <meta itemprop="wordCount" content="316">
-  <meta itemprop="keywords" content="Blog">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="AI-Agent">
   <meta name="twitter:description" content="#Blog 好问题，这几个名词确实容易混淆——它们不全是 Agent 框架。我先帮你理清它们的真实身份，再系统对比所有好用的 Agent 工具。
@@ -134,64 +149,109 @@ Little Coder 是编程专用 Agent
 如果你说的“Agent Mini”是指轻量级框架，那就是 AllegroAgent 或 AgentForge 这类
 二、所有好用的 Agent 框架全景对比 🔥 全能型 Agent（帮你完成日常电脑工作） 适合你的场景：完成代码任务 &#43; 搜索资料 &#43; 整理文件 &#43; 日常工作">
 
-	
-  </head><body class="ma0 avenir bg-near-white development is-page is-page page-ai-agent">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "AI-Agent",
+      "item": "http://localhost:1313/posts/ai-agent/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI-Agent",
+  "name": "AI-Agent",
+  "description": " #Blog 好问题，这几个名词确实容易混淆——它们不全是 Agent 框架。我先帮你理清它们的真实身份，再系统对比所有好用的 Agent 工具。\n一、你提到的这几个，分别是什么？ 名称 真实身份 一句话解释 Continue ❌ 不是 Agent 框架 VSCode 编程助手插件，帮你写代码、补全、解释，但它不会“主动帮你干活” OpenClaw ✅ 是 Agent 框架 开源 AI 代理平台，能通过自然语言指令自动执行多步骤任务，是“能干活的数字员工” Little Coder ✅ 是 Agent（专注编程） 专门为代码任务调优的编程代理，Aider 基准得分 45.56%，是开发者专属 Agent Mini ⚠️ 参考命名 搜索结果中没有找到叫“Agent Mini”的主流框架，你可能指的是 AgentForge 或 AllegroAgent 这类轻量级框架 总结：\nContinue 只是插件，不是 Agent\nOpenClaw 是全能型 Agent，可以帮你做各种事（文件整理、浏览器、代码等）\nLittle Coder 是编程专用 Agent\n如果你说的“Agent Mini”是指轻量级框架，那就是 AllegroAgent 或 AgentForge 这类\n二、所有好用的 Agent 框架全景对比 🔥 全能型 Agent（帮你完成日常电脑工作） 适合你的场景：完成代码任务 + 搜索资料 + 整理文件 + 日常工作\n",
+  "keywords": [
+    "blog"
+  ],
+  "articleBody": " #Blog 好问题，这几个名词确实容易混淆——它们不全是 Agent 框架。我先帮你理清它们的真实身份，再系统对比所有好用的 Agent 工具。\n一、你提到的这几个，分别是什么？ 名称 真实身份 一句话解释 Continue ❌ 不是 Agent 框架 VSCode 编程助手插件，帮你写代码、补全、解释，但它不会“主动帮你干活” OpenClaw ✅ 是 Agent 框架 开源 AI 代理平台，能通过自然语言指令自动执行多步骤任务，是“能干活的数字员工” Little Coder ✅ 是 Agent（专注编程） 专门为代码任务调优的编程代理，Aider 基准得分 45.56%，是开发者专属 Agent Mini ⚠️ 参考命名 搜索结果中没有找到叫“Agent Mini”的主流框架，你可能指的是 AgentForge 或 AllegroAgent 这类轻量级框架 总结：\nContinue 只是插件，不是 Agent\nOpenClaw 是全能型 Agent，可以帮你做各种事（文件整理、浏览器、代码等）\nLittle Coder 是编程专用 Agent\n如果你说的“Agent Mini”是指轻量级框架，那就是 AllegroAgent 或 AgentForge 这类\n二、所有好用的 Agent 框架全景对比 🔥 全能型 Agent（帮你完成日常电脑工作） 适合你的场景：完成代码任务 + 搜索资料 + 整理文件 + 日常工作\n框架 定位 内存需求 模型支持 特色 适合场景 OpenClaw 全能 AI 代理 2-4GB 阿里云百炼、Ollama、OpenAI等 多渠道网关(Telegram/钉钉)、可插拔技能库、双模记忆 自动整理文件、定时任务、跨工具协同 xopc 超轻量个人助手 ~200MB 20+种LLM，含Ollama CLI+WebSocket网关、Telegram/微信插件、cron定时任务 终端党、想在微信/Telegram里控制AI NanoClaw 安全优先轻量版 \u003c500MB 主要支持Claude Docker容器隔离、攻击面小、可审计 对安全敏感的场景 SuperAGI 多代理协同框架 4-8GB 多种模型 多Agent并行执行、长期记忆、插件生态 复杂任务需要多个专业代理协同 💻 编程专用 Agent（专注代码任务） 如果你主要想做代码开发，这些更专业：\n框架 定位 启动方式 特色 适合场景 Little Coder 轻量编程代理 CLI Aider基准45.56%、30+技能文件 代码生成、调试、重构 Claude Code 商业编程助手 CLI/IDE 多文件推理、PR/Issue工作流、沙箱建议 专业软件开发，但需付费 Continue VSCode插件 IDE内 代码补全、解释、调试，但不能主动执行任务 编程辅助，不是Agent 🧠 记忆优先型 Agent（越用越聪明） 如果你希望 AI 能记住你的偏好和历史：\n框架 记忆架构 记忆方式 特色 Letta (原MemGPT) 三 tier记忆(核心/回忆/归档) Agent自编辑记忆 OS式内存管理、视觉化调试 Hindsight 四路并行检索 系统被动提取 91.4% LongMemEval得分、MCP原生 🪶 极简/学习型 Agent（代码量小、易理解） 如果你喜欢折腾、想理解原理：\n框架 核心代码量 语言 特色 Nanobot 小型Python代码库 Python 可在几小时内通读全部代码 AllegroAgent \u003c1000行（核心） Python 零重型依赖、仅requests运行时 AgentForge 模块化框架 Python YAML声明式配置、开发时间减少62% 🔧 嵌入式/边缘设备 Agent（极低资源） 如果你在树莓派等设备上运行：\n框架 语言 特色 DragonScale Go MemGPT级tiered内存、DAG并行工具执行、libSQL向量存储 三、针对你的需求的推荐 根据你的描述：代码任务 + 搜索资料 + 整理文件 + 日常工作 + 无独显 + 10GB以内模型\n🥇 首选推荐：OpenClaw + Qwen2.5-Coder 7B (CPU运行) 为什么最适合你：\nOpenClaw 是“能干活的AI”，不是只会聊天——你可以直接说“帮我整理downloads文件夹”、“搜索Python异步编程的资料并汇总”\n支持对接本地 Ollama 运行的 Qwen2.5-Coder 7B（4.5GB），完全无独显可用\n有 Web 控制台和 Telegram/钉钉多渠道，随时随地指挥\n2026年最新版新增 60 多项安全加固，不用担心乱执行命令\n安装方式（WSL Ubuntu）：\n# 1. 安装 Node.js 22+ curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - sudo apt install -y nodejs # 2. 一键安装 OpenClaw curl -fsSL https://openclaw.ai/install.sh | bash # 3. 运行配置向导（模型选 Ollama） openclaw onboard # 4. 启动网关 openclaw gateway start 浏览器打开 http://localhost:18789 即可使用 Web 控制台\n🥈 备选推荐：xopc（终端党/IM控制） 如果你更喜欢在终端里操作，或者想通过微信/Telegram 控制 AI：\n单命令安装：npm install -g @xopcai/xopc\n支持 20+ 种模型（含 Ollama），内置文件搜索/编辑、网页搜索工具\n有 cron 定时任务，可以设置“每天早上8点汇总新闻”\n🥉 如果你想先从小白的开始：AllegroAgent 如果你只是想先理解 Agent 怎么工作，不想一上来就面对复杂配置：\npip install allegro-agent 然后写几行 Python 就能跑起一个有工具调用能力的 Agent\n四、一句话总结 你想要 选这个 AI 主动帮你干活（整理文件、搜索、写代码） OpenClaw 终端/微信里控制 AI xopc 只想写代码时辅助 Continue（不是 Agent） 研究原理、自己造轮子 AllegroAgent / Nanobot 需要超强记忆能力 Hindsight（作为记忆层接入其他框架） 最终建议： 先装 OpenClaw + 本地 Ollama 跑 Qwen2.5-Coder 7B，这是目前最能实现“帮我干活”这个目标的组合，且完全满足你“无独显、10GB内”的限制。配置过程中有任何问题随时问我。\n",
+  "wordCount" : "316",
+  "inLanguage": "en",
+  "datePublished": "2026-04-29T00:00:00Z",
+  "dateModified": "2026-04-29T18:41:09+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/ai-agent/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hi, there!",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Hi, there! (Alt + H)">Hi, there!</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-   
-  
+    <h1 class="post-title entry-hint-parent">
+      AI-Agent
+    </h1>
+    <div class="post-meta"><span title='2026-04-29 00:00:00 +0000 UTC'>April 29, 2026</span>&nbsp;·&nbsp;<span>2 min</span>
 
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        Hi, there!
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      <div class="ananke-socials"></div>
-
-    </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-
-  <article class="page-ai-agent flex-l mw7 center ph3 flex-wrap justify-between">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">AI-Agent</h1>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2026-04-29T00:00:00Z">April 29, 2026</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><ul>
+</div>
+  </header> 
+  <div class="post-content md-content"><ul>
 <li>#Blog
 <ul>
 <li>
 <p>好问题，这几个名词确实容易混淆——它们不全是 Agent 框架。我先帮你理清它们的真实身份，再系统对比所有好用的 Agent 工具。</p>
 </li>
 <li>
-<h2 id="一你提到的这几个分别是什么">一、你提到的这几个，分别是什么？</h2>
+<h2 id="一你提到的这几个分别是什么">一、你提到的这几个，分别是什么？<a hidden class="anchor" aria-hidden="true" href="#一你提到的这几个分别是什么">#</a></h2>
 <table>
   <thead>
       <tr>
@@ -238,10 +298,10 @@ Little Coder 是编程专用 Agent
 <p>如果你说的“Agent Mini”是指轻量级框架，那就是 <strong>AllegroAgent</strong> 或 <strong>AgentForge</strong> 这类</p>
 </li>
 <li>
-<h2 id="二所有好用的-agent-框架全景对比">二、所有好用的 Agent 框架全景对比</h2>
+<h2 id="二所有好用的-agent-框架全景对比">二、所有好用的 Agent 框架全景对比<a hidden class="anchor" aria-hidden="true" href="#二所有好用的-agent-框架全景对比">#</a></h2>
 </li>
 <li>
-<h3 id="-全能型-agent帮你完成日常电脑工作">🔥 全能型 Agent（帮你完成日常电脑工作）</h3>
+<h3 id="-全能型-agent帮你完成日常电脑工作">🔥 全能型 Agent（帮你完成日常电脑工作）<a hidden class="anchor" aria-hidden="true" href="#-全能型-agent帮你完成日常电脑工作">#</a></h3>
 <p>适合你的场景：完成代码任务 + 搜索资料 + 整理文件 + 日常工作</p>
 <table>
   <thead>
@@ -291,7 +351,7 @@ Little Coder 是编程专用 Agent
 </table>
 </li>
 <li>
-<h3 id="-编程专用-agent专注代码任务">💻 编程专用 Agent（专注代码任务）</h3>
+<h3 id="-编程专用-agent专注代码任务">💻 编程专用 Agent（专注代码任务）<a hidden class="anchor" aria-hidden="true" href="#-编程专用-agent专注代码任务">#</a></h3>
 <p>如果你主要想做代码开发，这些更专业：</p>
 <table>
   <thead>
@@ -329,7 +389,7 @@ Little Coder 是编程专用 Agent
 </table>
 </li>
 <li>
-<h3 id="-记忆优先型-agent越用越聪明">🧠 记忆优先型 Agent（越用越聪明）</h3>
+<h3 id="-记忆优先型-agent越用越聪明">🧠 记忆优先型 Agent（越用越聪明）<a hidden class="anchor" aria-hidden="true" href="#-记忆优先型-agent越用越聪明">#</a></h3>
 <p>如果你希望 AI 能记住你的偏好和历史：</p>
 <table>
   <thead>
@@ -357,7 +417,7 @@ Little Coder 是编程专用 Agent
 </table>
 </li>
 <li>
-<h3 id="-极简学习型-agent代码量小易理解">🪶 极简/学习型 Agent（代码量小、易理解）</h3>
+<h3 id="-极简学习型-agent代码量小易理解">🪶 极简/学习型 Agent（代码量小、易理解）<a hidden class="anchor" aria-hidden="true" href="#-极简学习型-agent代码量小易理解">#</a></h3>
 <p>如果你喜欢折腾、想理解原理：</p>
 <table>
   <thead>
@@ -391,7 +451,7 @@ Little Coder 是编程专用 Agent
 </table>
 </li>
 <li>
-<h3 id="-嵌入式边缘设备-agent极低资源">🔧 嵌入式/边缘设备 Agent（极低资源）</h3>
+<h3 id="-嵌入式边缘设备-agent极低资源">🔧 嵌入式/边缘设备 Agent（极低资源）<a hidden class="anchor" aria-hidden="true" href="#-嵌入式边缘设备-agent极低资源">#</a></h3>
 <p>如果你在树莓派等设备上运行：</p>
 <table>
   <thead>
@@ -411,11 +471,11 @@ Little Coder 是编程专用 Agent
 </table>
 </li>
 <li>
-<h2 id="三针对你的需求的推荐">三、针对你的需求的推荐</h2>
+<h2 id="三针对你的需求的推荐">三、针对你的需求的推荐<a hidden class="anchor" aria-hidden="true" href="#三针对你的需求的推荐">#</a></h2>
 <p>根据你的描述：<strong>代码任务 + 搜索资料 + 整理文件 + 日常工作 + 无独显 + 10GB以内模型</strong></p>
 </li>
 <li>
-<h3 id="-首选推荐openclaw--qwen25-coder-7b-cpu运行">🥇 首选推荐：OpenClaw + Qwen2.5-Coder 7B (CPU运行)</h3>
+<h3 id="-首选推荐openclaw--qwen25-coder-7b-cpu运行">🥇 首选推荐：OpenClaw + Qwen2.5-Coder 7B (CPU运行)<a hidden class="anchor" aria-hidden="true" href="#-首选推荐openclaw--qwen25-coder-7b-cpu运行">#</a></h3>
 <p><strong>为什么最适合你：</strong></p>
 </li>
 <li>
@@ -445,7 +505,7 @@ Little Coder 是编程专用 Agent
 </span></span></code></pre></div><p>浏览器打开 <code>http://localhost:18789</code> 即可使用 Web 控制台</p>
 </li>
 <li>
-<h3 id="-备选推荐xopc终端党im控制">🥈 备选推荐：xopc（终端党/IM控制）</h3>
+<h3 id="-备选推荐xopc终端党im控制">🥈 备选推荐：xopc（终端党/IM控制）<a hidden class="anchor" aria-hidden="true" href="#-备选推荐xopc终端党im控制">#</a></h3>
 <p>如果你更喜欢在终端里操作，或者想通过微信/Telegram 控制 AI：</p>
 </li>
 <li>
@@ -458,13 +518,13 @@ Little Coder 是编程专用 Agent
 <p>有 cron 定时任务，可以设置“每天早上8点汇总新闻”</p>
 </li>
 <li>
-<h3 id="-如果你想先从小白的开始allegroagent">🥉 如果你想先从小白的开始：AllegroAgent</h3>
+<h3 id="-如果你想先从小白的开始allegroagent">🥉 如果你想先从小白的开始：AllegroAgent<a hidden class="anchor" aria-hidden="true" href="#-如果你想先从小白的开始allegroagent">#</a></h3>
 <p>如果你只是想先理解 Agent 怎么工作，不想一上来就面对复杂配置：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install allegro-agent
 </span></span></code></pre></div><p>然后写几行 Python 就能跑起一个有工具调用能力的 Agent</p>
 </li>
 <li>
-<h2 id="四一句话总结">四、一句话总结</h2>
+<h2 id="四一句话总结">四、一句话总结<a hidden class="anchor" aria-hidden="true" href="#四一句话总结">#</a></h2>
 <table>
   <thead>
       <tr>
@@ -502,27 +562,94 @@ Little Coder 是编程专用 Agent
 <li></li>
 <li></li>
 </ul>
-<ul class="pa0">
-  
-   <li class="list di">
-     <a href="/tags/blog/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Blog</a>
-   </li>
-  
-</ul>
 
-      
-    </div></article>
 
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
-    &copy;  Hi, there! 2026 
-  </a>
-    <div><div class="ananke-socials"></div>
-</div>
   </div>
-</footer>
 
-  </body>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/blog/">Blog</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Hi, there!</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>
