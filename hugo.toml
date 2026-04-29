@@ -1,7 +1,7 @@
 baseURL = "http://localhost:1313/"
 locale = "en-us"
 title = "Hi, there!"
-theme = "hugo-book"
+theme = "PaperMod"
 enableGitInfo = true
 
 [params]
